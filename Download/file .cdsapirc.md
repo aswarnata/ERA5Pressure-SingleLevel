@@ -6,3 +6,6 @@
 4. Buka notepad, kemudian copy
 5. Simpan dengan nama `.cdsapirc` dan simpan di C:/Users/(nama user komputer)
    > <img width="490" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/66eaeeea-e2b5-4b4a-b362-9e34a9fd8fd8" />
+6. Install cdsapi di python
+   ```bash
+   $ pip install "cdsapi>=0.7.4"
