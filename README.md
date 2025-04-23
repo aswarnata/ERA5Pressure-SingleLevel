@@ -32,8 +32,9 @@ https://youtu.be/ENlQuh9hw30
   2. Single Levels: **NetCDF4** *_karena pada GRIB file, ada variabel yang tidak bisa terbaca sehingga tidak bisa diproses._
 > ![image](https://github.com/user-attachments/assets/afd5facc-7ee0-470a-bc7b-940ac0853c52)
 
+
 - Download melalui CDS API
-Jalankan kode `DownloadFile.py` di folder `Download`
+> Jalankan kode `DownloadFile.py` di folder `Download`
 
 ## Note
 Terdapat keterbatasan pemrosesan di Codespaces Github memiliki limit akses. Agar lebih aman bisa dijalankan di komputer lokal, hanya mengganti `Path file` (di bagian `#Konfigurasi`) ke directory penyimpanan file GRIB dan Shapefile batas administrasi di device masing-masing.
