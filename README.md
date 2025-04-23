@@ -1,4 +1,4 @@
-# ERA5 Pressure Level
+# ERA5 Pressure Levels
 Calculating monthly Temperature and Geopotential values at different pressure levels in Indonesia at district level using area weighted averaged.
 
 ## Download Source Material
