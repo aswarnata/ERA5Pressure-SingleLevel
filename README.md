@@ -4,11 +4,11 @@ Calculating monthly Temperature and Geopotential values at different pressure le
 ## 🔧 Requirements
 - Python >= 3.8
 - Dependencies:
-  In python env:
+In python env:
   ```bash
   pip install numpy pandas xarray geopandas rasterio tqdm cfgrib
 
-  In conda prompt 
+In conda prompt 
   ```bash
   conda install -c conda-forge numpy pandas xarray geopandas rasterio tqdm cfgrib
 
