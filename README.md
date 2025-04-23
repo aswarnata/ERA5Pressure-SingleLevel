@@ -1,6 +1,6 @@
 # ERA5 Pressure Levels & Single Levels
 - Calculating monthly Temperature and Geopotential values at different pressure levels in Indonesia at district level using area weighted averaged.
-- Calculating monthly
+- Calculating monthly 8 variables of ERA5 Single Levels values in Indonesia at district level using area weighted averaged.
   1. 10m u-component of wind,
   2. 10m v-component of wind,
   3. 2m dewpoint temperature,
@@ -9,7 +9,6 @@
   6. Instantaneous surface sensible heat flux,
   7. Total cloud cover,
   8. Large scale rain rate
-  values at in Indonesia at district level using area weighted averaged.
 
 ## 🔧 Requirements
 - Python >= 3.8
