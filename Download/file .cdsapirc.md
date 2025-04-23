@@ -1,4 +1,4 @@
-# Sebelum download pastikan ada konfigurasi CDS API personal access token sudah dibuat
+# Sebelum download pastikan afile CDS API personal access token sudah dibuat
 
 1. Buka https://cds.climate.copernicus.eu/how-to-api
 2. Copy url dan key
