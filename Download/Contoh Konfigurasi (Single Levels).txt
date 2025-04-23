@@ -1,4 +1,5 @@
-## Contoh konfigurasi CDS API Request ERA5 Pressure Level
+## Contoh konfigurasi CDS API Request ERA5 Single Level
+## Kalau langsung dijalankan akan masuk ke C:/User dengan nama yang belum diganti sesuai format
 
 import cdsapi
 
