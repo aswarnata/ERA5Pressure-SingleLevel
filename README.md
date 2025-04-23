@@ -28,8 +28,8 @@ Tutorial Download:
 https://youtu.be/ENlQuh9hw30
 
 - File Format
-  1. Pressure Level: GRIB
-  2. Single Levels: NetCDF4 *karena pada GRIB file, ada variabel yang tidak bisa terbaca sehingga tidak bisa diproses.
+  1. Pressure Level: **GRIB**
+  2. Single Levels: **NetCDF4** *karena pada GRIB file, ada variabel yang tidak bisa terbaca sehingga tidak bisa diproses.
 
 ## Note
 Terdapat keterbatasan pemrosesan di Codespaces Github memiliki limit akses. Agar lebih aman bisa dijalankan di komputer lokal, hanya mengganti `Path file` (di bagian `#Konfigurasi`) ke directory penyimpanan file GRIB dan Shapefile batas administrasi di device masing-masing.
