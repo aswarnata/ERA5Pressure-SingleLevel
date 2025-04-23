@@ -4,9 +4,10 @@ import calendar
 
 output_path = "Download_ouput"
 
-years = ['2023'] # Tahun bisa diganti
-months = [f"{i:02d}" for i in range (1, 5)] #Untuk testing, ambil 4 bulan pertama
-# months = [f"{i:02d}" for i in range (1, 13)] # Untuk semua bulan
+years = ['2023']
+# untuk testing, ambil 4 bulan pertama
+# contoh> months = [f"{i:02d}" for i in range (1, 5)]
+months = [f"{i:02d}" for i in range (1, 13)]
 
 # Untuk cek nama dataset yang digunakan bisa dilihat di CDS Request API di bagian bawah website download, sebelum submit
 dataset = "reanalysis-era5-single-levels" 
