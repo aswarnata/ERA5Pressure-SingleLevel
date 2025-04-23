@@ -21,7 +21,7 @@
   ```bash
   conda install -c conda-forge numpy pandas xarray geopandas rasterio tqdm cfgrib
 
-## Download Source Material
+## Download Source Material (Manual)
 https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=download
 
 - Tutorial Download: 
@@ -33,7 +33,7 @@ https://youtu.be/ENlQuh9hw30
 > ![image](https://github.com/user-attachments/assets/afd5facc-7ee0-470a-bc7b-940ac0853c52)
 
 
-- Download melalui CDS API
+- **Download otomatis menggunakan CDS API**
 > Jalankan kode `DownloadFile.py` di folder `Download`
 
 ## Note
