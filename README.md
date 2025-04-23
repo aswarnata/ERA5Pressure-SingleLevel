@@ -15,7 +15,7 @@ Calculating monthly Temperature and Geopotential values at different pressure le
 ## Download Source Material
 https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels?tab=download
 
-- Tutorial Download: 
+Tutorial Download: 
 https://youtu.be/ENlQuh9hw30
 
 ## Note
