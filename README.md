@@ -30,7 +30,7 @@ https://youtu.be/ENlQuh9hw30
 - File Format
   1. Pressure Level: **GRIB**
   2. Single Levels: **NetCDF4** *_karena pada GRIB file, ada variabel yang tidak bisa terbaca sehingga tidak bisa diproses._
-![image](https://github.com/user-attachments/assets/8123cfda-179a-4840-97f1-34546880cb46)
+> ![image](https://github.com/user-attachments/assets/8123cfda-179a-4840-97f1-34546880cb46)
 
 
 ## Note
