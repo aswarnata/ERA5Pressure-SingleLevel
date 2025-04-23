@@ -18,9 +18,9 @@ CONFIG = {
     'month': ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
     'variable': ['u10', 'v10', 'd2m', 't2m', 'msl', 'tcc', 'lsrr', 'ishf'],
     'time': ['00:00', '03:00', '06:00', '09:00', '12:00','15:00', '18:00', '21:00'],
-    'raw_data_dir': 'C:/Users/Asani/GridToArea_Swarna/.vscode/ERA5_Single_Levels',
-    'output_dir': 'C:/Users/Asani/GridToArea_Swarna/Hasil_ERA5_Single_Levels',
-    'shp_kabupaten': 'C:/Users/Asani/GridToArea_Swarna/.vscode/RBI_Indonesia/RBI_PROV_KAB6.shp',
+    'raw_data_dir': 'File_ERA5_Raw', # Ubah ke directory yang berisi file GRIB
+    'output_dir': 'Hasil_ERA5_SingleLevels', # Ubah ke directory output yang diinginkan
+    'shp_kabupaten': 'RBI_Indonesia/RBI_PROV_KAB6.shp', # Ubah ke path shapefile yang sesuai
 }
 
 os.makedirs(CONFIG['output_dir'], exist_ok=True)
@@ -126,6 +126,7 @@ class ERA5Processor: # Kelas utama yang memuat semua fungsi untuk pemrosesan dat
         try:
             for year in self.config['year']:
                 for month in self.config['month']:
+                    # Jika penamaan file asli berbeda, bisa disesuaikan di sini > f"nama file.nc"
                     file_nc = os.path.join(self.config['raw_data_dir'], f"ERA5SingleLevels.{year}{month}-{year}{month}.nc")
                     if not os.path.exists(file_nc):
                         logger.warning(f"File: {file_nc} tidak ditemukan, skipping...")
@@ -133,7 +134,8 @@ class ERA5Processor: # Kelas utama yang memuat semua fungsi untuk pemrosesan dat
 
                     datasetERA5 = self.nc_to_xarray(file_nc)
                     df = self.calculate_weighted_average(datasetERA5, variables=self.config['variable'])
-                    # Penamaan file hasil
+
+                    # Penamaan file hasil, bisa disesuaikan > f"nama file.csv"
                     output_file = os.path.join(self.config['output_dir'], f"ERA5_SingleLevels_{year}{month}.csv")
                     df.to_csv(output_file, index=False) # Konversi dataframe ke CSV
                     logger.info(f"SFile disimpan dengan nama: {output_file}")
